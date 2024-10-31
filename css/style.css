@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #1e1d2b;
+
   min-height: 100vh;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -73,25 +73,35 @@ li.nav-link:hover {
 }
 .section{
     height: 100vh;
-    text-align: left;
-    padding-left: 300px;
-    border: 1px solid red;
-} 
+    text-align: left; 
+    background-color: #1e1d2b;
+      
+}
+.section:nth-of-type(1){
+  border: 5px solid red; 
+  
+}
 
    .text {
   color: #fff;
-  font-size: 1rem;
-  line-height: 100vh;
+  font-size: 50px;
+  padding-left: 200px;
+  margin-top: -40px;
+ 
+  
+
 }
 
 
 .title_principal{
-  font-size: 3rem;
+  
   color: #ff702a;
   text-align: left;
-  line-height: 100vh;
-  padding-left: 150px;
-  font-size: 100px;
+  padding-top: 300px;
+  padding-left: 200px;
+  font-size: 150px;
+  display: inline-block;
+  background-color: red;
 
 }
 .title{
@@ -104,7 +114,35 @@ p {
   color: white;
 }
 
- 
+.button{
+    display: inline-block;
+    background-color: #ff702a;
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.button:hover{
+  background-color: white;
+  color: #2c2b47;
+  border: 1px dotted #2c2b47
+}
+
+
+
+.imagen{
+  position:absolute;
+  background-image: url(../images/home.png);
+  background-position: center;
+  right: 150px;
+  top: 250px ;
+  background-size: cover;
+  width: 550px;
+  height: 550px;
+ }
 
 li.nav-link a {
   text-decoration: none;
